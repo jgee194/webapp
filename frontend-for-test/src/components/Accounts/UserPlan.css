@@ -1,0 +1,9 @@
+.plans {
+    width: 30rem;
+    /* border-style: outset; */
+    height: 25rem;
+}
+
+.plans-inner {
+    position: relative;
+}

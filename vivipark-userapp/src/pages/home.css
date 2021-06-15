@@ -1,0 +1,16 @@
+.exit-button {
+    position: absolute;
+    bottom: 1.5rem;
+    z-index: 1;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    border-color: #F8C967;
+    box-shadow: 1px 1px 10px -5px;
+}
+
+.home-div {
+    display: flex;
+    justify-content: center;
+}

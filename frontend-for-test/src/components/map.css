@@ -1,0 +1,90 @@
+.map-div {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-sheet {
+  position: fixed;
+  z-index: 20;
+}
+.info-window {
+  margin-top: 0;
+  display: block;
+  padding: 0rem 1rem 1rem 1rem;
+  /* padding: 0rem 1rem 0.5rem 1rem; */
+}
+
+.info-window button {
+  margin-bottom: 5px;
+}
+
+.info-window button {
+  background-color: #2e466e;
+  border-radius: 17px;
+  border: 1px solid #1f2f47;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 6px 13px;
+  text-decoration: none;
+}
+.info-window span {
+  display: inline-block;
+  color: #000000;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 0px 3px;
+  text-decoration: none;
+}
+
+.info-window button:hover,
+/* .info-window a:hover, */
+/* .info-window a:active, */
+.info-window button:active {
+  background-color: #415989;
+}
+
+.info-window button:disabled,
+.info-window-button[disabled] {
+  background-color: rgba(58, 58, 58, 0.5);
+  color: rgba(58, 58, 58, 0.5);
+  border-color: rgb(128, 128, 128, 0.5);
+}
+
+.fetching {
+  margin-top: 100px;
+}
+#opening {
+  display: inline-block;
+  font-size: 10px;
+  padding: 4px 9px;
+  background-color: #ffffff;
+  color: #2e466e;
+  border-color: #2e466e;
+  border-width: 2px;
+}
+#swipebar {
+  height: 0.1em;
+  display: block;
+  margin-bottom: 0em;
+}
+
+.exit-button {
+  position: absolute;
+  bottom: 1.5rem;
+  z-index: 1;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  border-color: #f8c967;
+  background-color: white;
+  box-shadow: 1px 1px 10px -5px;
+}
+
+.link {
+  /* margin: 20px 0px 20px 0px; */
+  text-decoration: none;
+}

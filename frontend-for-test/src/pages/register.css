@@ -1,0 +1,59 @@
+.register-fail {
+  margin-left:auto;
+  margin-right:auto;
+  color: red;
+}
+
+.register-success {
+  color: green;
+}
+
+.title {
+  font-family: Lucida;
+  font-weight: lighter;
+}
+
+.form-div-login input {
+  margin: 15px 0 15px 0;
+}
+
+.form-div-register input {
+  margin: 10px 0 10px 0;
+}
+
+.form-div-login,
+.form-div-register {
+  margin-top: 20px;
+}
+
+.form-div {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.form-div .submit-button {
+  width: 130px;
+  height: 50px;
+  background: #89c7b9;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+}
+
+.form-div a {
+  color: black;
+}
+/* 
+.form-div form {
+  display: block;
+  justify-content: center;
+} */
+
+.form-div a:hover,
+.form-div a:focus {
+  color: gray;
+}

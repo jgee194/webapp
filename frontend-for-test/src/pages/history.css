@@ -1,0 +1,25 @@
+.title-spacer {
+    height: 4.66rem;
+    left: 0;
+    right: 0;
+}
+
+.row-date{
+    text-align: center;
+}
+
+.row-date h2, p {
+    margin: 0 0 0 0;
+}
+
+.row-date p {
+    font-size: 13px;
+}
+
+.history-tabs {
+    width: 100%;
+}
+
+.fixed-tabs {
+    position: relative;
+}

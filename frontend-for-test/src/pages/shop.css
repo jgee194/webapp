@@ -1,0 +1,24 @@
+.filter {
+    background-color: #B1E2D7;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.filter:focus, 
+.filter:active {
+    outline: none !important;
+}
+
+.filter:hover {
+    background-color: lightgray;
+}
+
+.title-spacer {
+    height: 5.5rem;
+    left: 0;
+    right: 0;
+}

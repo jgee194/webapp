@@ -1,0 +1,48 @@
+h1 {
+    margin: 1rem auto 1rem auto;
+
+    color: black;
+
+    } 
+h3 {
+    color: black;
+    max-width: 360px;
+    max-height: 560px;
+    font-size: larger;
+    } 
+    .plan-card {
+        
+        display: 'inline-flex';
+        width: 1rem;
+        height: 1rem;
+        background-color: #B1E2D7;
+        border-radius: 1rem;
+        margin: 1rem auto 1rem auto;
+        padding: 1px 0 1rem 0;
+        transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 150ms 50ms ease-out;
+        color: black;
+        position: relative;
+    }
+    
+    .plan-card:hover, 
+    .plan-card:focus {
+        transform: scale(1.02);
+        box-shadow: 1px 1px 3px rgb(99, 99, 99, 0.5);
+    }
+    
+   
+    .plan-card-outer {
+        margin-top: 1rem;
+    }
+
+    .stop_sharing {
+        background-color: transparent;
+        transform: scale(1);
+
+    }
+    .remove {
+        background-color: transparent;
+        transform: scale(0.9);
+
+    }
+    

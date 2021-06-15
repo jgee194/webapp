@@ -1,0 +1,24 @@
+.plan-search {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    z-index: 1;
+    margin-bottom: 1rem;
+}
+
+.plan-search input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 80%;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 0.5px;
+}
+
+@media (orientation: landscape) {
+    .plan-search input {
+        width: 100%;
+    }
+}

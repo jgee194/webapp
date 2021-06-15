@@ -1,0 +1,15 @@
+.car {
+  position: absolute;
+  right: 1.5rem;
+  top: 5rem;
+  border: none;
+  z-index: 2;
+}
+
+.car svg {
+  border-radius: 50px;
+  background: white;
+  transform: scale(2);
+  width: 30px;
+  cursor: pointer;
+}

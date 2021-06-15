@@ -1,0 +1,14 @@
+.locate {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    background: transparent;
+    border: none;
+    z-index: 2;
+  }
+
+.locate svg {
+    transform: scale(2);
+    width: 30px;
+    cursor: pointer;
+}

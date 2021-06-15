@@ -1,0 +1,40 @@
+.shop-title {
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #89C7B9;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 3;
+}
+
+.shop-title h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+.arrow-icon {
+    color: white;
+    position: absolute;
+    left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.arrow-icon:hover {
+    background-color: #B1E2D7;
+}
+
+.title-spacer {
+    height: 5.5rem;
+    left: 0;
+    right: 0;
+}

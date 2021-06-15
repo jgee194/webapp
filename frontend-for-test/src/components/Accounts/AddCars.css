@@ -1,0 +1,45 @@
+.add-cars {
+    background-color: #B1E2D7;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 400px;
+    z-index: 2;
+    margin-bottom: 1rem;
+}
+
+.add-cars input {
+    padding: 1.5rem;
+    font-size: 1.0rem;
+    width: 50%;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 0.5px;
+}
+
+@media (orientation: landscape) {
+    .add-cars input {
+        width: 100%;
+    }
+}
+
+.filter {
+    background-color: #B1E2D7;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.add-cars:focus, 
+.add-cars:active {
+    outline: none !important;
+}
+
+.add-cars:hover {
+    background-color: lightgray;
+}
